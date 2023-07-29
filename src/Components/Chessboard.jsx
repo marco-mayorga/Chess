@@ -12,14 +12,18 @@ export default function Chessboard() {
 
             if (divisor % 2 === 0) {
                 board.push(
-                    <div className="board-piece black-piece">
+                    <div
+                        className="board-piece black-piece"
+                        key={HorizontalAxis[i] + VerticalAxis[j]}>
                         [{HorizontalAxis[i]}
                         {VerticalAxis[j]}]
                     </div>
                 );
             } else {
                 board.push(
-                    <div className="board-piece white-piece">
+                    <div
+                        className="board-piece white-piece"
+                        key={HorizontalAxis[i] + VerticalAxis[j]}>
                         [{HorizontalAxis[i]}
                         {VerticalAxis[j]}]
                     </div>
