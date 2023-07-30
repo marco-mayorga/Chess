@@ -1,17 +1,14 @@
 .board {
     display: grid;
-    background-color: rgb(117, 150, 86);
     height: 80vh;
     width: 80vh;
     grid-template-columns: repeat(8, 1fr);
-}
-
-.white-piece {
-    background-color: rgb(238, 238, 210);
 }
 
 .black-piece {
     background-color: rgb(117, 150, 86);
 }
 
-/* OTHER BOARD COLOR rgb(238,238,210) */
+.white-piece {
+    background-color: rgb(238, 238, 210);
+}
